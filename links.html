@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta name="charset" content="utf-8"/>
+   <meta name="description" content="links"/>
+   <meta name="author" content="Ivan Nunes"/>
+   <title>Links DlTec do Brasil</title>
+</head>
+
+<body>
+   <header>
+   <h1 id="topo">Criando Links e Ancores em HTML</h1>
+   </header>
+
+   <nav></nav>
+
+   <section>
+   <article>
+   <h3>Link Externo</h3>
+   <p>Dizemos que um link eh externo quando ele aponta para uma pagina que estah ffora do seu site.</br>Por exemplo, podemos fazer um link para o google e, nesse caso, ele serah um link externo.</p>
+
+   <p>Clique aqui para ir para o <a href="https://www.google.com" title="Google">google</a>.</p>
+   <p>Nos links -- tag "a" -- temos o atributo target que define o local onde a pagina serah aberta, conforme o link aponta.</p>
+   <p>
+   Abrir link do <a href="https://www.google.com" title="Google Interno" target="_self">google</a> na mesma janela.</br>Abrir link do <a href="https://www.google.com" title="Google externo" target="_blank">google</a> em uma nova janela.
+   </p>
+
+   <p><b><i>OBS:</i></b> caso nao configurarmos o target, o valor default=_self serah mantido, onde a pagina vai abrir na mesma janela.</p>
+   </article> 
+
+   <article>
+   <h3>Link Interno</h3>
+   <p>Dizemos que um link eh interno quando ele aponta para uma pagina que esta dentro do site atual.</br>Por exemplo, podemos fazer um link para a pagina "texto.html" usando o <i>href</i> e o destino sendo a propria pagina.</p>
+   <p>Link para o arquivo <a href="textos.html" title="textos html">textos.html</a></p>
+
+   <p><strong>Obs:</strong> Lembre-se do conceito de <strong>caminho relativo</strong> e <strong>caminho absoluto</strong> explicado na materia... Se nao lembra, volte lah e revise.</p>
+   </article>
+
+   <article>
+   <h3>Ancoras</h3>
+   <p>
+   Ancoras nada mais sao do que links que apontam para algum lugar da pagina que voce estah.</br>
+   Um exemplo muito comum de encontrarmos eh o "voltar ao topo".
+   </p>
+   <p>
+   Para criarmos uma <strong>ancora</strong>, precisamos utilizar um atributo global "id" visto anteriormente nesse capitulo.
+   </p>
+   <p>
+   A logica eh bem simples, basta adicionar um id em algum elemento de sua pagina e depois criar um link que "aponte" para esse <b>id</b>.
+   </p>
+
+   <p>Veja como eh facil... primeiro vamos la no titulo h1 da nossa pagina e criamos um id="topo". Veja como ficaria abaixo... e em seguida faca isso no seu arquivo.
+   </p>
+
+   <p>
+   <code>&lt;h1 id="topo"&gt;Criando Links e Ancoras em HTML&lt;/h1&gt;</code>
+   </p>
+
+   <p>Agora que ja temos um elemento com um id definido eh so criar um link que aponte para esse id... veja como seria:</p>
+  
+   <p>
+   <code>&lt;a href="#topo"&gt;Voltar ao Topo&lt;/a1&gt;</code>
+   </p>
+
+   </article>
+
+   </section>
+   <footer>
+   <a href="#topo" title="Voltar ao topo">Voltar ao topo</a>
+   </footer>
+</body>
+</html>

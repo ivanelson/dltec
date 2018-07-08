@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<!-- Titulo do documento-->
+	<title>Trabalhando com imagens HTML | DLtec</title>
+<!--/ Titulo do documento-->
+
+<!-- Meta-tags-->
+	<meta name="description" content="Tags html para formularios." />
+	<meta name="keywords" content="html, form, css, dltec, curso online" />
+	<meta name="author" content="DlteC do Brasil" />
+	<meta charset="UTF-8" />
+<!--/ Meta-tags-->
+
+</head>
+
+<body>
+    <header>
+        <h1>Trabalhando com Formularios HTML</h1>
+    </header>
+    <nav></nav>
+    <section>
+        <article>
+            <form action="http://www.dltec.com.br/cursohtml/processa-form.phtml" name="meuform" id="meuform">
+                <h2>Dados do Aluno</h2>
+                <p>Campos marcados com (*) sao de preenchimento obrigatorio.</p>
+                <p>
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="nome" id="nome" placeholder="Primeiro nome" required="required"><span>(*)</span>
+                </p>
+
+                <p>
+                    <label for="sobrenome">Sobrenome:</label>
+                    <input type="text" name="sobrenome" id="sobrenome" placeholder="Sobrenome nome" required="required"><span>(*)</span>
+                </p>
+
+                <p>
+                    <label for="email">E-mail:</label>
+                    <input type="email" name="email" id="email" placeholder="email@dominio.com" required="required" pattern="^[0-9a-zA-Z-._+]+@[a-zA-Z0-9-_+]+\.[a-zA-Z]+(\.[a-zA-Z]+)?"><span>(*)</span>
+                </p>
+
+                <p>
+                    <label for="curso">Curso:</label>
+                    <select name="curso" id="curso">
+                        <option value="html">HTML</option>
+			<option value="redes">Redes</option>
+			<option value="ccna">CCNA</option>
+			<option value="linux">Linux</option>
+                    </select>
+                    <label for="inicio">Inicio</label>
+                    <input type="date" name="inicio" id="inicio" placeholder="mm/dd/yyyy">
+
+                    <label >Prazo de Acesso</label>
+                    <input type="radio" name="acesso" id="acesso" value="90" checked>90 Dias
+                    <input type="radio" name="acesso" id="acesso" value="180">180 Dias
+                </p>
+
+                <p>
+                    <input type="submit" name="submit" id="submit" value="Enviar dados" src="http://www.dltec.com.br/cursohtml/processa-form.phtml">
+                </p>
+            </form>
+        </article>
+    </section>
+
+    <footer>
+    </footer>
+</body>
+</html>

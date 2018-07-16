@@ -6,22 +6,29 @@
 <!--/ Titulo do documento-->
 
 <!-- Meta-tags-->
-	<meta name="description" content="Tags html para formularios." />
+	
+    <meta charset="utf-8" />
+    <meta name="description" content="Tags html para formularios." />
 	<meta name="keywords" content="html, form, css, dltec, curso online" />
 	<meta name="author" content="DlteC do Brasil" />
-	<meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+    <script src="main.js"></script>
+
 <!--/ Meta-tags-->
 
 </head>
 
 <body>
     <header>
-        <h1>Trabalhando com Formularios HTML</h1>
+        <h1 id="title-form">Trabalhando com Formularios HTML</h1>
     </header>
     <nav></nav>
     <section>
         <article>
-            <form action="http://www.dltec.com.br/cursohtml/processa-form.phtml" name="meuform" id="meuform">
+            <form class="formulario" action="http://www.dltec.com.br/cursohtml/processa-form.phtml" name="meuform" id="meuform">
                 <h2>Dados do Aluno</h2>
                 <p>Campos marcados com (*) sao de preenchimento obrigatorio.</p>
                 <p>
@@ -56,7 +63,7 @@
                 </p>
 
                 <p>
-                    <input type="submit" name="submit" id="submit" value="Enviar dados" src="http://www.dltec.com.br/cursohtml/processa-form.phtml">
+                    <input class="button_gradiente" type="submit" name="submit" id="submit" value="Enviar dados" src="http://www.dltec.com.br/cursohtml/processa-form.phtml">
                 </p>
             </form>
         </article>

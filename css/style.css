@@ -1,0 +1,71 @@
+body {
+    background-color: #E5E1D1;
+    color: #2C343B;
+    font-size: 105%;
+    font-family: Helvetica, Verdana, Arial, sans-serif;
+
+    /*
+    background-image:  url('../img/linux-essentials.png');
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+    */
+}
+
+.container {
+    background-color: #ffffff;
+    width: 75%;  /* ocupa 75% da tela */
+    margin-left: auto; /* centralizado */
+    margin-right: auto;
+
+}
+
+h1 {
+    background-color: #2C343B;
+    color: #E5E1D1;
+    font-size: 2em;
+    text-transform: capitalize;
+}
+
+.titulo1 {
+    background-color: #2C343B;
+    color: #E5E1D1;
+}
+
+h2, h3 {
+    color: #C44741;
+    font-size: 1.35em;
+}
+
+.crazygreen {
+    color: #1CA832;
+    font-family: monospace;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    text-shadow: .2em .3em .5em #EFEB12;
+    }
+    .madblack {
+    color:#000000;
+    font-family: Arial;
+    text-shadow: .2em .2em .5em #F94848;
+    word-spacing: 1em;
+    text-decoration: line-through;
+    }
+    .center {
+    text-align: center;
+    }
+
+.button_gradiente {
+    background-image: -webkit-gradient(
+        linear,
+        left top,
+        left top,
+        color-stop(0, #338491),
+        color-stop(1, #0EF065)
+    );
+    background-image: -o-linear-gradient(left top, #338491 0%, #0EF065 100%);
+    background-image: -moz-linear-gradient(left top, #338491 0%, #0EF065 100%);
+    background-image: -webkit-linear-gradient(left top, #338491 0%, #0EF065 100%);
+    background-image: -ms-linear-gradient(left top, #338491 0%, #0EF065 100%);
+    background-image: linear-gradient(to left top, #338491 0%, #0EF065 100%);
+}

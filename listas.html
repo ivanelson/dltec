@@ -15,24 +15,46 @@
 
 
 <!--/ Meta-tags-->
+<meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width">
+
+  <link rel="stylesheet" href="css/style.css">
+  <!--[if !IE]><!-->
+  <!--<![endif]-->
+  <!--[if lt IE 9]>
+  <link rel="stylesheet" href="https://cdn.css-tricks.com/wp-content/themes/CSS-Tricks-16/css/oldie.css">
+  <![endif]-->
+  <!--[if IE 9]>
+  <link rel="stylesheet" href="https://cdn.css-tricks.com/wp-content/themes/CSS-Tricks-16/style.css?v=16.1>
+  <![endif]-->
 
 </head>
 
 <body>
+   <section class="container">
 
-   <header>
-      <h1>Criando Listas em HTML</h1>
-   </header>
+     <header class="cabecalho">
+          <p class="titulo_site">Curso HTML5/CSS3 - Introducao WebDesign</p>
+          <p class="subtitulo_site">DlTec do Brasil | www.dltec.com.br</p>
+     </header>
 
-   <nav>
-   </nav>
+     <nav class="menu">
+          <ul>
+             <li><a href="index.html">Home</a></li>
+             <li><a href="curso.html">HTML5/CSS3</a></li>
+             <li><a href="sobremim.html">About</a></li>
+             <li><a href="contato.html">Contato</a></li>
+          </ul>
+     </nav>
 
    <section>
+      <h1>Criando Listas em HTML</h1>
       <h3>Listas nao ordenadas</h3>
       <p>As listas nao ordenadas sao muito comuns em Website, a tag para sua criacao eh a "ul". Alem do mais cada elemento da lista eh criado com a tag "li"
       </p>
       Vamos a um exemplo. Isso eh uma lista nao ordenada:
-           <ul>
+           <ul role="quadrada">
 		<li>Item 1</li>
 		<li>Item 2</li>
 		<li>Item 3</li>
@@ -54,7 +76,7 @@
       <p>Eh uma lista ordenada o padrao eh que cada item tenha um numero sequencia, iniciando 1. Uma lista ordenada eh criada com a tag "ol" e cada item da lista com a tag "li".
       </p>
       <p>Exemplo de lista ordenada:
-         <ol>
+         <ol role="romanos">
 		     <li>Introducao 1</li>
 		     <li>HTML 5</li>
 		     <li>CSS 3</li>
@@ -76,7 +98,9 @@
       </p>
    </section>
   
-   <footer>
+   <footer class="footer">
+       <p>Copyright iv4n inc.</p>
    </footer>
+   </section>
 </body>
 </html>

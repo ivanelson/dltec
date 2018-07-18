@@ -155,10 +155,29 @@ table {
 	    outline-offset: 5.5px;
 }
 
+.box50 {
+    background-color: #C44741;
+    width: 50%;
+    height: 100px;
+    margin-left: 1em;
+    padding: 1em;
+}
+
+.boxazul {
+    background-color: #52616d;
+    width: 70%;
+    color: #ffffff;
+    padding: .3em;  
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .caixa400 {
     background-color: #C44741;
     width: 400px;
     height: 400px;
+    margin-left: 1em;
+ 
 }
 
 .caixa300 {
@@ -178,4 +197,47 @@ table {
     background-color: #e5e1d1;
     width: 100px;
     height: 100px;
+}
+
+.borda {
+    background-color: #c44741;
+    width: 25%;
+    margin: 1em;
+    padding: .3em;
+    text-align: center;
+    border: dashed blue;
+}
+
+.box_borda_redonda {
+    width: 33.33%;
+    height: 100px;
+    margin: 1em;
+    padding: .3em;
+    background-color: #2c343b;
+    border-style: dotted;
+    border-color: red;
+    border-radius: .5em;
+    border-width: thick;
+    color: white;
+    text-align: center;       
+}
+
+.outline {
+    background-color: #c44741;
+    width: 200px;
+    outline-style: dashed;
+    outline-color: #2c343b;
+    outline-width: 10px;
+    text-align: center;
+    margin: 1em;
+}
+
+.border {
+    background-color: #c44741;
+    width: 200px;
+    border-style: dashed;
+    border-color: #2c343b;
+    border-width: 10px;
+    text-align: center;
+    margin: 1em;
 }
